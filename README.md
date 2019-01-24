@@ -24,7 +24,7 @@ def c_to_f(c_temp):
   f_temp = c_temp * 5/9 + 32
   return f_temp
 
-##Converts the tempture of 0 degrees Celsius to Fahrenheit by calling the c_to_f function
+#Converts the tempture of 0 degrees Celsius to Fahrenheit by calling the c_to_f function
 
 c0_in_fahrenheit = c_to_f(0)
 print(c0_in_fahrenheit)
